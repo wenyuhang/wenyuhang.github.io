@@ -1,9 +1,352 @@
 
-<html lang= "en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title> test </title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>周末-独自旅行</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="skin/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="skin/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="skin/css/chocolat.css" type="text/css" media="screen">
+<!-- chocolate css for gallery light box-->
+<!-- animation -->
+<link href="skin/css/animate.css" rel="stylesheet" type="text/css" media="all">
+<!-- //animation -->
+<link href="skin/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="skin/js/jquery-1.11.1.min.js"></script>
+<script src="skin/js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- onlinefonts -->
+<link href="http://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
+<!-- //onlinefonts -->
 </head>
-<body>
-<h1 style = "text-align:center;"> welcome to my blog</h1>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- header -->
+<div class="header-w3layouts"> 
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Vitae</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <h1><a class="navbar-brand" href="index.html" style="font-family:站酷文艺体">YouTiy</a></h1>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+          <li><a class="page-scroll scroll active" href="#home">主页</a></li>
+          <li><a class="page-scroll scroll" href="#about">关于</a></li> 
+          <li><a class="page-scroll scroll" href="#port">相册</a></li>
+          <li><a class="page-scroll scroll" href="#edu">教育</a></li>
+          <li><a class="page-scroll scroll" href="#exp">经验</a></li>
+          <li><a class="page-scroll scroll" href="#contact">联系</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+    </div>
+    <!-- /.container --> 
+  </nav>
+</div>
+<!-- //header -->
+<div class="header jarallax" id="home">
+  <div class="container">
+    <div class="banner-text text-center">
+      <h2>周末-独自旅行</h2>
+      <h3> - 旅行的意义 - </h3>
+      <p>一辈子是场修行。短的是旅途，长的是人生。旅行，能让你遇到那个更好的自己。 </p>
+      <div class="w3l-button banner-btn"> <a href="#">详细信息</a> </div>
+    </div>
+    <div class="w3-arrow bounce animated"> <a href="#about" class="scroll"><i class="fa fa-angle-down" aria-hidden="true"></i></a> </div>
+  </div>
+</div>
+<div class="about" id="about">
+  <div class="container">
+    <h3 class="w3l-heading">关于</h3>
+    <div class="col-md-4 w3-about-top"> <img src="skin/images/3.jpg" class="img-responsive" alt="about-img"/> </div>
+    <div class="col-md-8 w3l-about">
+      <div class="w3ls-heading">
+        <h2>I'm a web designer / developer based in Toronto, Canada. I have a passion for web design and love to create for web and mobile devices.</h2>
+      </div>
+      <div class="w3ls-about-info">
+        <p> Web前端开发工程师是一个很新的职业，是从事Web前端开发工作的工程师。主要进行网站开发，优化，完善的工作。网页制作是Web 1.0时代的产物，那时网站的主要内容都是静态的，用户使用网站的行为也以浏览为主。 一位好的Web前端开发工程师在知识体系上既要有广度，又要有深度，所以很多大公司即使出高薪也很难招聘到理想的前端开发工程师。现在说的重点不在于讲解技术，而是更侧重于对技巧的讲解。技术非黑即白，只有对和错，而技巧则见仁见智。以前会Photoshop和Dreamweaver就可以制作网页，现在只掌握这些已经远远不够了。无论是开发难度上，还是开发方式上，现在的网页制作都更接近传统的...</p>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<!-- modal --> 
+<!-- //modal --> 
+<!-- Portfolio -->
+<div class="portfolio" id="port">
+  <div class="port-head">
+    <h3 class="w3l-heading">相册</h3>
+  </div>
+  <ul class="simplefilter">
+    <!--  <li class="active" data-filter="all">All</li>
+    <li data-filter="1">Design1</li>
+    <li data-filter="2">Design2</li>
+    <li data-filter="3">Design3</li>-->
+  </ul>
+  <div class="filtr-container"> <div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/171102/1-1G1021243430-L.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/171102/1-1G1021243430-L.jpg" class="img-responsive" alt="h" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/171102/1-1G1021243310-L.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/171102/1-1G1021243310-L.jpg" class="img-responsive" alt="g" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/171102/1-1G1021243160-L.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/171102/1-1G1021243160-L.jpg" class="img-responsive" alt="f" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/171102/1-1G1021243030-L.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/171102/1-1G1021243030-L.jpg" class="img-responsive" alt="e" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/171102/1-1G1021242500-L.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/171102/1-1G1021242500-L.jpg" class="img-responsive" alt="d" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/171102/1-1G1021242380-L.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/171102/1-1G1021242380-L.jpg" class="img-responsive" alt="c" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/171102/1-1G1021242230-L.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/171102/1-1G1021242230-L.jpg" class="img-responsive" alt="b" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/171102/1-1G1021242070-L.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/171102/1-1G1021242070-L.jpg" class="img-responsive" alt="a" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+
+    <div class="clearfix"> </div>
+  </div>
+</div>
+<!-- //Portfolio --> 
+<!--Education-->
+<div id="edu" class="agile-edu">
+  <div class="container">
+    <h3 class="w3l-heading">教育</h3>
+    <div class="work-info">
+      <div class="col-md-6 col-sm-6 col-xs-6 work-right work-right2"> </div>
+      <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2">
+        <div class="col-md-6  col-sm-6 col-xs-6  work1">
+          <h4>介绍</h4>
+          <p>狭义的教育是指专门组织的教育，即学校教育，它不仅包括全日制的学校教育，而且也包括半日制的、业余的学校教育、函授教育、刊授教育、广播学校和电视学校的教育等.</p>
+        </div>
+        <div class="col-md-6  col-sm-6 col-xs-6  work2">
+          <h5> 教育的内涵</h5>
+          <span></span> </div>
+      </div>
+    </div>
+    <div class="work-info">
+      <div class="col-md-6  col-sm-6 col-xs-6"> </div>
+      <div class="col-md-6  col-sm-6 col-xs-6  work-right">
+        <div class="col-md-6  col-sm-6 col-xs-6 work2"> <span></span>
+          <h5>教育本质</h5>
+        </div>
+        <div class="col-md-6  col-sm-6 col-xs-6  work-right1">
+          <h4>介绍</h4>
+          <p>所谓教育本质，就是指教育作为一种社会活动区别于其它社会活动的根本特征，即“教育是什么”的问题。它反映出教育活动固有的规定性也即其根本特征.</p>
+        </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <div class="work-sec-2">
+      <div class="work-info">
+        <div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
+        <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2 ">
+          <div class="col-md-6 col-sm-6 col-xs-6  work1">
+            <h4>介绍</h4>
+            <p>教育的最深远功能是影响文化发展，教育不仅要传递文化，还要满足文化本身延续和更新的要求.</p>
+          </div>
+          <div class="col-md-6  col-sm-6 col-xs-6  work2">
+            <h5> 教育的功能</h5>
+            <span></span> </div>
+        </div>
+      </div>
+      <div class="work-info">
+        <div class="col-md-6  col-sm-6 col-xs-6 "> </div>
+        <div class="col-md-6  col-sm-6 col-xs-6  work-right">
+          <div class="col-md-6  col-sm-6 col-xs-6  work2"> <span></span>
+            <h5>教育概念</h5>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6  work-right1">
+            <h4>介绍</h4>
+            <p>宏观的教育的唯一特征是“着眼于人的素质、能力”，这表明判别某个活动是不是教育不在其结果如何.</p>
+          </div>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+      <span class="edu-circle"></span> </div>
+  </div>
+</div>
+<!--//Education-->
+<div class="agile-border"> <span></span> </div>
+<!-- work-experience-->
+<div id="exp" class="agile-edu exp">
+  <div class="container">
+    <h3 class="w3l-heading">经验</h3>
+    <div class="work-info">
+      <div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
+      <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2">
+        <div class="col-md-6  col-sm-6 col-xs-6  work1">
+          <h4>简介</h4>
+          <p>父母是孩子最好的老师，父母就应注意平时生活中的细节问题，做好榜样，带好头.</p>
+        </div>
+        <div class="col-md-6  col-sm-6 col-xs-6 work2">
+          <h5> 育儿经验</h5>
+          <span></span> </div>
+      </div>
+    </div>
+    <div class="work-info">
+      <div class="col-md-6  col-sm-6 col-xs-6 "> </div>
+      <div class="col-md-6  col-sm-6 col-xs-6 work-right">
+        <div class="col-md-6 col-sm-6 col-xs-6 work2"> <span></span>
+          <h5>学前教育</h5>
+        </div>
+        <div class="col-md-6  col-sm-6 col-xs-6 work-right1">
+          <h4>简介</h4>
+          <p>学前教育（Preschool Education）是由家长及幼师利用各种方法、实物，有系统、有计划而且科学地对他们的大脑进行各种刺激，使大脑各部位的功能逐渐完善而进行的教育.</p>
+        </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <div class="work-2">
+      <div class="work-info">
+        <div class="col-md-6  col-sm-6 col-xs-6 work-right work-right2"> </div>
+        <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2 ">
+          <div class="col-md-6  col-sm-6 col-xs-6 work1">
+            <h4>简介</h4>
+            <p>小学教育专业，是在培养小学教师五十多年的经验基础上，于2001年经国家教育部批准的新增设本科专业.</p>
+          </div>
+          <div class="col-md-6  col-sm-6 col-xs-6  work2">
+            <h5>小学教育</h5>
+            <span></span> </div>
+        </div>
+      </div>
+      <div class="work-info">
+        <div class="col-md-6  col-sm-6 col-xs-6 "> </div>
+        <div class="col-md-6  col-sm-6 col-xs-6 work-right">
+          <div class="col-md-6  col-sm-6 col-xs-6 work2"> <span></span>
+            <h5>中学教育</h5>
+          </div>
+          <div class="col-md-6  col-sm-6 col-xs-6 work-right1">
+            <h4>简介</h4>
+            <p>中学教育是小学教育的继续和进入高等院校或转入其它中等学校的预备阶段；是暂时不能升学的初、高中学生准备就业的学习阶段.</p>
+          </div>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+      <span class="edu-circle"></span> </div>
+  </div>
+</div>
+<!--//work-experience--> 
+<!-- contact -->
+<div id="contact" class="w3_agileits-contact">
+  <div class="container">
+    <h3 class="w3l-heading">联系</h3>
+    <div class="w3_agile-contact  jarallax text-center">
+      <form action="http://www.23.r1s.net/plus/diy.php" enctype="multipart/form-data" method="post">
+        <input type="hidden" name="action" value="post" />
+        <input type="hidden" name="diyid" value="1" />
+        <input type="hidden" name="do" value="2" />
+        <input type="text" placeholder="姓名" name="xingming" class="name" required>
+        <input type="text" placeholder="电话" name="shouji" class="name" required>
+        <input type="email" placeholder="Email" name="youzheng" class="email" required>
+        <textarea name="liuyan" placeholder="内容"></textarea>
+        <input type="hidden" name="dede_fields" value="xingming,text;shouji,text;youzheng,text;liuyan,text" />
+        <input type="hidden" name="dede_fieldshash" value="28c4bc5569861f12830a08072eb797a0" />
+        <input type="submit" value="提交">
+      </form>
+      <h4>or</h4>
+      <a href="mailto:admin@admin.com">admin@admin.com</a>
+      <h5>13978789898</h5>
+      <ul class="social-icons-w3_agile">
+        <li><a href="#" class="fa fa-facebook icon icon-border facebook"> </a></li>
+        <li><a href="#" class="fa fa-twitter icon icon-border twitter"> </a></li>
+        <li><a href="#" class="fa fa-google-plus icon icon-border googleplus"> </a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- footer -->
+<div class="agileits_w3layouts-footer text-center">
+  <div class="container">
+    <p>Copyright @ 2011-2017 <a href="http://www.youtiy.com/" target="_blank">周元俊博客</a> All Rights Reserved. <a href="http://www.youtiy.com/" target="_blank">Power by YouTiy</a></p>
+  </div>
+</div>
+<!-- //footer --> 
+<!-- //contact --> 
+<!-- PopUp-Box-JavaScript --> 
+<script src="skin/js/jquery.chocolat.js"></script> 
+<script type="text/javascript">
+			$(function() {
+				$('.filtr-item a').Chocolat();
+			});
+		</script> 
+<!-- //PopUp-Box-JavaScript --> 
+<!-- fliter-JavaScript --> 
+<script src="skin/js/jquery.filterizr.js"></script> 
+<script src="skin/js/controls.js"></script> 
+<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script> 
+<!-- //fliter-JavaScript --> 
+<script src="skin/js/jarallax.js"></script> 
+<script src="skin/js/SmoothScroll.min.js"></script> 
+<script type="text/javascript">
+	/* init Jarallax */
+	$('.jarallax').jarallax({
+		speed: 0.5,
+		imgWidth: 1366,
+		imgHeight: 768
+	})
+</script> 
+<!-- start-smoth-scrolling --> 
+<script type="text/javascript" src="skin/js/easing.js"></script> 
+<!-- //here ends scrolling icon -->
 </body>
 </html>
